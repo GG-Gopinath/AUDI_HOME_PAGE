@@ -1,0 +1,592 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#navbar {
+  background-color: white;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+#menu {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: "poppins";
+  font-weight: 400;
+  color: black;
+  font-size: 18px;
+}
+#menu-logo {
+  height: 40px;
+  width: 30px;
+  margin-left: 35px;
+  padding-top: 15px;
+  margin-top: 5px;
+}
+#audi-logo {
+  margin-left: 35%;
+  padding-top: 10px;
+  height: 50px;
+  width: 80px;
+}
+#search-logo {
+  margin-left: 34%;
+  height: 9%;
+  width: 40px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#flag-logo {
+  margin-left: 2%;
+  height: 9%;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#body img {
+  height: 40%;
+  width: 100%;
+  padding-top: 50px;
+}
+#audi-h4 {
+  padding-top: 20px;
+  font-family: "poppins";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.read-more {
+  padding: 15px 80px;
+  font-size: 16px;
+  font-family: "poppins";
+  margin-left: 480px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#text-2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.curent-topics {
+  padding-left: 40px;
+  padding-top: 30px;
+  display: flex;
+  gap: 5px;
+}
+.audi-img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+}
+.img-date {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.app-heading {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 22px;
+  width: 300px;
+  padding-left: 10px;
+}
+.app-content {
+  width: 370px;
+  padding-left: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.app-para {
+  color: rgb(56, 55, 56);
+  width: 370px;
+  padding-left: 10px;
+  font-size: 11px;
+  font-family: "poppins";
+}
+.drive-img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+}
+.img-date {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.drive-heading {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 22px;
+  width: 300px;
+  padding-left: 10px;
+}
+.drive-content {
+  width: 370px;
+  padding-left: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.decarbonization-img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+}
+.img-date {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.decarbonization-heading {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 22px;
+  width: 300px;
+  padding-left: 10px;
+}
+.decarbonization-content {
+  width: 370px;
+  padding-left: 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.electric-speed {
+  padding-top: 80px;
+}
+.electric-speed-h2 {
+  font-family: "poppins";
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 350;
+  font-size: 28px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+}
+.electric-speed-para {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  width: 460px;
+  margin-left: 40px;
+  padding-bottom: 20px;
+}
+#electric-rm {
+  padding: 15px 60px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "poppins";
+  font-size: 16px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.car-spec {
+  margin-left: 40px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.spec-1,
+.spec-2,
+.spec-3 {
+  padding-bottom: 5px;
+}
+.spec-4,
+.spec-5 {
+  width: 520px;
+  padding-bottom: 5px;
+}
+.electric-car-img {
+  height: 380px;
+  width: 650px;
+  float: right;
+  bottom: 430px;
+  position: relative;
+  padding-right: 40px;
+  z-index: 1;
+}
+.titanium {
+  display: flex;
+  margin-top: 100px;
+}
+
+.titanium img {
+  height: 350px;
+  width: 620px;
+  margin-left: 40px;
+}
+.text-titanium h2 {
+  font-family: "poppins";
+  font-weight: 350;
+  padding-left: 30px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.text-titanium p {
+  font-family: "poppins";
+  padding-left: 30px;
+  width: 500px;
+  font-size: 17px;
+  padding-top: 20px;
+}
+
+.text-titanium button {
+  padding: 10px 70px;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: "poppins";
+}
+.press-release h2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.press-releases-2 {
+  display: flex;
+  gap: 5px;
+}
+.audi-media-center-1 {
+  margin-left: 40px;
+}
+.audi-media-center-1 img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+}
+.audi-media-center-1 p {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.audi-media-center-1 h2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 22px;
+  width: 300px;
+  padding-left: 10px;
+}
+.audi-media-center-1 h6 {
+  font-family: "poppins";
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.audi-media-center-2 {
+  /* margin-left: 40px; */
+}
+.audi-media-center-2 img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+}
+.audi-media-center-2 p {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.audi-media-center-2 h2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 22px;
+  width: 300px;
+  padding-left: 10px;
+}
+.audi-media-center-2 h6 {
+  font-family: "poppins";
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.audi-media-center-3 {
+  /* margin-left: 40px; */
+}
+.audi-media-center-3 img {
+  height: 240px;
+  width: 370px;
+  padding-bottom: 5px;
+  /* padding-right: 20px; */
+}
+.audi-media-center-3 p {
+  color: gray;
+  font-family: "poppins";
+  font-size: 15px;
+  padding-left: 10px;
+}
+.audi-media-center-3 h2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 22px;
+  width: 320px;
+  padding-left: 10px;
+}
+.audi-media-center-3 h6 {
+  font-family: "poppins";
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.media-center-btn {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 530px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.audi-q4 {
+  height: 350px;
+  width: 620px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.discover-models-parent {
+  display: flex;
+}
+.discover-models {
+  margin-left: 40px;
+}
+.discover-models h2 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 25px;
+  width: 450px;
+}
+.discover-models-para {
+  font-family: "poppins";
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.discover-models button {
+  padding: 12px 40px;
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.specs--1 {
+  padding-right: 50px;
+}
+.specs-1,
+.specs-2,
+.specs-3,
+.specs-4,
+.specs-5,
+.specs-6 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 12px;
+}
+.specs-1,
+.specs-2,
+.specs-3,
+.specs-4 {
+  padding-bottom: 5px;
+}
+.specs-4,
+.specs-5 {
+  width: 520px;
+  padding-bottom: 5px;
+}
+.blackbox {
+  width: 100%;
+  background-color: black;
+  max-height: auto;
+  color: rgb(255, 255, 255);
+}
+.footer-icons {
+  font-size: 25px;
+  margin-left: 950px;
+  padding-top: 50px;
+}
+#footer-icon-2,
+#footer-icon-3,
+#footer-icon-4 {
+  margin-left: 30px;
+  color: white;
+}
+.topics {
+  font-family: "poppins";
+  font-weight: 250px;
+  padding-left: 50px;
+  margin-right: 120px;
+}
+.topics h1 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.p1 {
+  padding-bottom: 10px;
+  font-family: "poppins";
+  font-size: small;
+  font-size: 14px;
+}
+.audi-ag {
+  font-family: "poppins";
+  font-weight: 250px;
+  padding-left: 50px;
+  margin-right: 120px;
+}
+.audi-ag h1 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.audi-ag p {
+  padding-bottom: 10px;
+  font-family: "poppins";
+  font-size: 14px;
+}
+.services {
+  font-family: "poppins";
+  font-weight: 250px;
+  padding-left: 50px;
+}
+.services h1 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.services p {
+  padding-bottom: 10px;
+  font-family: "poppins";
+  font-size: 14px;
+}
+.footer-topic-audi-services {
+  display: flex;
+}
+.footer-2 {
+  display: flex;
+  font-size: small;
+  font-family: "poppins";
+  font-weight: 150;
+  margin-top: 40px;
+}
+.copyrights p {
+  padding-left: 30px;
+  font-size: small;
+  font-weight: 350;
+  padding-right: 20px;
+}
+.legal,
+.legal-2,
+.system,
+.policy,
+.cookie,
+.option {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: "poppins";
+  font-weight: 350;
+}
+.system {
+  padding-right: 20px;
+}
+.Policy {
+  font-family: "poppins";
+  font-weight: 350;
+}
+#globe {
+  color: white;
+  font-size: 20px;
+}
+.globe-parent {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.en {
+  padding-left: 10px;
+}
+#down {
+  padding-left: 10px;
+}
+.footer-para {
+  padding-left: 30px;
+  font-family: "poppins";
+  font-size: 13px;
+  text-align: justify;
+  padding-right: 30px;
+}
+.footer-para-1 {
+  padding-bottom: 10px;
+}
+.footer-para-2 {
+  padding-bottom: 20px;
+}
+.footer-para-3 {
+  padding-bottom: 50px;
+}
+.footer-para-4 {
+  padding-bottom: 50px;
+}
+#body {
+  animation-name: move;
+  animation-fill-mode: forwards;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#body:hover {
+  transform: scale(1.1);
+}
+.decarbonization-img {
+  animation-name: move;
+  transform: scale(1);
+  transition: 0.1s ease-in-out;
+  overflow: hidden;
+}
+
+/* .decarbonization-img:hover {
+  transform: scale(1.5);
+  overflow: hidden;
+} */
+/* @keyframes move {
+} */
+@media screen and (max-width: 600px) {
+  #navbar,
+  #body img {
+    width: 600px;
+  }
+}
